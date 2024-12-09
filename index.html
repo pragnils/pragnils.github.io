@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html data-wf-page="664ad43d53211f583261d8db" data-wf-site="664ad43d53211f583261d8da" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>DZINR'S WORLD - Webflow Ecommerce website template</title>
+  <meta
+    content="PORTFOLION, the portfolio Webflow Template for its intuitive E-Commerce, CMS and versatile animations are geared towards enriching the user experience."
+    name="description" />
+  <meta content="PORTFOLION - Webflow Ecommerce website template" property="og:title" />
+  <meta
+    content="PORTFOLION, the portfolio Webflow Template for its intuitive E-Commerce, CMS and versatile animations are geared towards enriching the user experience."
+    property="og:description" />
+  <meta content="images/seo.jpg" property="og:image" />
+  <meta content="PORTFOLION - Webflow Ecommerce website template" property="twitter:title" />
+  <meta
+    content="PORTFOLION, the portfolio Webflow Template for its intuitive E-Commerce, CMS and versatile animations are geared towards enriching the user experience."
+    property="twitter:description" />
+  <meta content="images/seo.jpg" property="twitter:image" />
+  <meta property="og:type" content="website" />
+  <meta content="summary_large_image" name="twitter:card" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="Webflow" name="generator" />
+  <link href="css/webflow-style.css" rel="stylesheet" type="text/css" />
+  <style>
+    @media (min-width:992px) {
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="bbdeecd7-2e45-90f0-9e40-60dc50497b26"] {
+        -webkit-transform: translate3d(320px, null, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(20deg) skew(0, 0);
+        -moz-transform: translate3d(320px, null, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(20deg) skew(0, 0);
+        -ms-transform: translate3d(320px, null, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(20deg) skew(0, 0);
+        transform: translate3d(320px, null, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(20deg) skew(0, 0);
+        transform-style: preserve-3d;
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="57b0e4cd-21cb-c146-6c44-6a0b12a6e20a"] {
+        -webkit-transform: translate3d(320px, null, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(20deg) skew(0, 0);
+        -moz-transform: translate3d(320px, null, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(20deg) skew(0, 0);
+        -ms-transform: translate3d(320px, null, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(20deg) skew(0, 0);
+        transform: translate3d(320px, null, null) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(20deg) skew(0, 0);
+        transform-style: preserve-3d;
+        opacity: 0;
+      }
+
+      html.w-mod-js:not(.w-mod-ix) [data-w-id="71ad58f6-da1d-c39f-8754-600be407ef32"] {
+        -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script
+    type="text/javascript">WebFont.load({ google: { families: ["Archivo:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"] } });</script>
+  <script
+    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+  <link href="images/app-icon.png" rel="apple-touch-icon" />
+  <script
+    type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = { "currencyCode": "USD", "symbol": "$", "decimal": ".", "fractionDigits": 2, "group": ",", "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}", "hideDecimalForWholeNumbers": false };</script>
+</head>
+
+<body>
+  <div data-w-id="d447d218-d294-331a-6255-244d44f1d1a8" style="display:flex" class="preloader-wrapper">
+    <div data-w-id="d447d218-d294-331a-6255-244d44f1d1a9" class="top-preloader"></div>
+    <div data-w-id="d447d218-d294-331a-6255-244d44f1d1aa" class="bottom-preloader"></div>
+    <div class="logo-wrapper">
+      <div data-w-id="d447d218-d294-331a-6255-244d44f1d1ac" class="w-layout-hflex flex-block-preloader-logo">
+        <h4 data-w-id="d447d218-d294-331a-6255-244d44f1d1ad"
+        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+          class="portfo-letter">DZINR'S</h4>
+        <h4 data-w-id="d447d218-d294-331a-6255-244d44f1d1af"
+          style="-webkit-transform:translate3d(0, 90px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+          class="lion-letter"><span>WORLD</span></h4>
+      </div>
+    </div>
+  </div>
+  <div data-animation="default" class="navbar-home w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium"
+    style="opacity:0" data-w-id="44a0e6be-3ad8-d428-ecfc-22b813d0de15" role="banner" data-no-scroll="1"
+    data-duration="400" data-doc-height="1"><a href="/" aria-current="page"
+      class="logo-link-wrapper w-nav-brand w--current"><img width="Auto" height="Auto" alt="Logo"
+        src="images/portfolion-20logo-2002.png" loading="eager"
+        srcset="images/portfolion-20logo-2002-p-500.png 500w, images/portfolion-20logo-2002-p-800.png 800w, images/portfolion-20logo-2002-p-1080.png 1080w, images/portfolion-20logo-2002-p-1600.png 1600w, images/portfolion-20logo-2002-p-2000.png 2000w, images/portfolion-20logo-2002-p-2600.png 2600w, images/portfolion-20logo-2002-p-3200.png 3200w, images/portfolion-20logo-2002.png 4900w"
+        sizes="(max-width: 991px) 175px, 12vw" class="logo" /></a>
+    <div class="nav-container w-container">
+      <nav role="navigation" class="nav-menu-home w-nav-menu">
+        <div class="nav-link-wrapper-home"><a href="/" aria-current="page"
+            class="nav-link font-black w-nav-link w--current">Home</a><a href="/" aria-current="page"
+            class="nav-link move-down hide-on-tab font-black w-nav-link w--current">Home</a></div>
+        <div class="nav-link-wrapper-home"><a href="/about.html" class="nav-link font-black w-nav-link">About</a><a
+            href="/about.html" class="nav-link move-down hide-on-tab font-black w-nav-link">About</a></div>
+        <div class="nav-link-wrapper-home"><a href="/services.html"
+            class="nav-link font-black w-nav-link">services</a><a href="/services.html"
+            class="nav-link move-down hide-on-tab font-black w-nav-link">services</a></div>
+        <div class="nav-link-wrapper-home"><a href="/works.html" class="nav-link font-black w-nav-link">Works</a><a
+            href="/works.html" class="nav-link move-down hide-on-tab font-black w-nav-link">Works</a></div>
+        <div class="nav-link-wrapper-home"></div>
+        <div class="nav-link-wrapper-home"><a href="/contact.html" class="nav-link font-black w-nav-link">Contact</a><a
+            href="/contact.html" class="nav-link move-down hide-on-tab font-black w-nav-link">Contact</a></div>
+      </nav>
+      <div data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="query Dynamo2 {
+  database {
+    id
+    commerceOrder {
+      comment
+      extraItems {
+        name
+        pluginId
+        pluginName
+        price {
+          value
+          unit
+          decimalValue
+          string
+        }
+      }
+      id
+      startedOn
+      statusFlags {
+        hasDownloads
+        hasSubscription
+        isFreeOrder
+        requiresShipping
+      }
+      subtotal {
+        value
+        unit
+        decimalValue
+        string
+      }
+      total {
+        value
+        unit
+        decimalValue
+        string
+      }
+      updatedOn
+      userItems {
+        count
+        id
+        price {
+          value
+          unit
+          decimalValue
+          string
+        }
+        product {
+          id
+          cmsLocaleId
+          f__draft_0ht
+          f__archived_0ht
+          f_ec_product_type_2dr10dr {
+            id
+            name
+          }
+          f_name_
+          f_sku_properties_3dr {
+            id
+            name
+            enum {
+              id
+              name
+              slug
+            }
+          }
+        }
+        rowTotal {
+          value
+          unit
+          decimalValue
+          string
+        }
+        sku {
+          cmsLocaleId
+          f__draft_0ht
+          f__archived_0ht
+          f_main_image_4dr {
+            url
+            file {
+              size
+              origFileName
+              createdOn
+              updatedOn
+              mimeType
+              width
+              height
+              variants {
+                origFileName
+                quality
+                height
+                width
+                s3Url
+                error
+                size
+              }
+            }
+            alt
+          }
+          f_sku_values_3dr {
+            property {
+              id
+            }
+            value {
+              id
+            }
+          }
+          id
+        }
+        subscriptionFrequency
+        subscriptionInterval
+        subscriptionTrial
+      }
+      userItemsCount
+    }
+  }
+  site {
+    id
+    commerce {
+      businessAddress {
+        country
+      }
+      defaultCountry
+      defaultCurrency
+      quickCheckoutEnabled
+    }
+  }
+}" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper cart" data-node-type="commerce-cart-wrapper">
+        <a class="w-commerce-commercecartopenlink cart-button invert w-inline-block" role="button"
+          aria-haspopup="dialog" aria-label="Open cart" data-node-type="commerce-cart-open-link" href="#"><svg
+            class="w-commerce-commercecartopenlinkicon" width="17px" height="17px" viewBox="0 0 17 17">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <path
+                d="M2.60592789,2 L0,2 L0,0 L4.39407211,0 L4.84288393,4 L16,4 L16,9.93844589 L3.76940945,12.3694378 L2.60592789,2 Z M15.5,17 C14.6715729,17 14,16.3284271 14,15.5 C14,14.6715729 14.6715729,14 15.5,14 C16.3284271,14 17,14.6715729 17,15.5 C17,16.3284271 16.3284271,17 15.5,17 Z M5.5,17 C4.67157288,17 4,16.3284271 4,15.5 C4,14.6715729 4.67157288,14 5.5,14 C6.32842712,14 7,14.6715729 7,15.5 C7,16.3284271 6.32842712,17 5.5,17 Z"
+                fill="currentColor" fill-rule="nonzero"></path>
+            </g>
+          </svg>
+          <div class="cart-text w-inline-block">Cart</div>
+          <div
+            data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItemsCount%22%7D%7D%5D"
+            class="w-commerce-commercecartopenlinkcount cart-quantity">0</div>
+        </a>
+        <div style="display:none"
+          class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal"
+          data-node-type="commerce-cart-container-wrapper">
+          <div data-node-type="commerce-cart-container" role="dialog"
+            class="w-commerce-commercecartcontainer cart-container">
+            <div class="w-commerce-commercecartheader cart-header">
+              <h4 class="w-commerce-commercecartheading">Your Cart</h4><a
+                class="w-commerce-commercecartcloselink w-inline-block" role="button" aria-label="Close cart"
+                data-node-type="commerce-cart-close-link"><svg class="invert" width="16px" height="16px"
+                  viewBox="0 0 16 16">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g fill-rule="nonzero" fill="#333333">
+                      <polygon
+                        points="6.23223305 8 0.616116524 13.6161165 2.38388348 15.3838835 8 9.76776695 13.6161165 15.3838835 15.3838835 13.6161165 9.76776695 8 15.3838835 2.38388348 13.6161165 0.616116524 8 6.23223305 2.38388348 0.616116524 0.616116524 2.38388348 6.23223305 8">
+                      </polygon>
+                    </g>
+                  </g>
+                </svg></a>
+            </div>
+            <div class="w-commerce-commercecartformwrapper cart-form-wrapper">
+              <form style="display:none" class="w-commerce-commercecartform" data-node-type="commerce-cart-form">
+                <script type="text/x-wf-template"
+                  id="wf-template-c158abd9-86c4-506f-6c34-511844020bac">%3Cdiv%20class%3D%22w-commerce-commercecartitem%22%3E%3Cimg%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20src%3D%22%22%20alt%3D%22%22%20class%3D%22w-commerce-commercecartitemimage%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22w-commerce-commercecartiteminfo%22%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_name_%2522%257D%257D%255D%22%20class%3D%22w-commerce-commercecartproductname%20package-name%20w-dyn-bind-empty%22%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePrice%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522price%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.price%2522%257D%257D%255D%22%20class%3D%22package-price%22%3E%24%C2%A00.00%C2%A0USD%3C%2Fdiv%3E%3Cscript%20type%3D%22text%2Fx-wf-template%22%20id%3D%22wf-template-c158abd9-86c4-506f-6c34-511844020bb2%22%3E%253Cli%253E%253Cspan%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522PlainText%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D.name%252522%25257D%25257D%25255D%2522%2520class%253D%2522w-dyn-bind-empty%2522%253E%253C%252Fspan%253E%253Cspan%253E%253A%2520%253C%252Fspan%253E%253Cspan%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522CommercePropValues%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D%252522%25257D%25257D%25255D%2522%2520class%253D%2522w-dyn-bind-empty%2522%253E%253C%252Fspan%253E%253C%252Fli%253E%3C%2Fscript%3E%3Cul%20data-wf-bindings%3D%22%255B%257B%2522optionSets%2522%253A%257B%2522type%2522%253A%2522CommercePropTable%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%5B%5D%2522%257D%257D%252C%257B%2522optionValues%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_sku_values_3dr%2522%257D%257D%255D%22%20class%3D%22w-commerce-commercecartoptionlist%22%20data-wf-collection%3D%22database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%22%20data-wf-template-id%3D%22wf-template-c158abd9-86c4-506f-6c34-511844020bb2%22%3E%3Cli%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3Cspan%3E%3A%20%3C%2Fspan%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%20class%3D%22w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3C%2Fli%3E%3C%2Ful%3E%3Ca%20href%3D%22%23%22%20role%3D%22button%22%20data-wf-bindings%3D%22%255B%257B%2522data-commerce-sku-id%2522%253A%257B%2522type%2522%253A%2522ItemRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.id%2522%257D%257D%255D%22%20class%3D%22w-inline-block%22%20data-wf-cart-action%3D%22remove-item%22%20data-commerce-sku-id%3D%22%22%20aria-label%3D%22Remove%20item%20from%20cart%22%3E%3Cdiv%20class%3D%22red-font%22%3ERemove%3C%2Fdiv%3E%3C%2Fa%3E%3C%2Fdiv%3E%3Cinput%20aria-label%3D%22Update%20quantity%22%20data-wf-bindings%3D%22%255B%257B%2522value%2522%253A%257B%2522type%2522%253A%2522Number%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522numberPrecision%2522%252C%2522params%2522%253A%255B%25220%2522%252C%2522numberPrecision%2522%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.count%2522%257D%257D%252C%257B%2522data-commerce-sku-id%2522%253A%257B%2522type%2522%253A%2522ItemRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.id%2522%257D%257D%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Aec-product-type%2522%253A%257B%2522ne%2522%253A%2522e348fd487d0102946c9179d2a94bb613%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22w-commerce-commercecartquantity%20main-cart-quantity%22%20required%3D%22%22%20pattern%3D%22%5E%5B0-9%5D%2B%24%22%20inputMode%3D%22numeric%22%20type%3D%22number%22%20name%3D%22quantity%22%20autoComplete%3D%22off%22%20data-wf-cart-action%3D%22update-item-quantity%22%20data-commerce-sku-id%3D%22%22%20value%3D%221%22%2F%3E%3C%2Fdiv%3E</script>
+                <div class="w-commerce-commercecartlist" data-wf-collection="database.commerceOrder.userItems"
+                  data-wf-template-id="wf-template-c158abd9-86c4-506f-6c34-511844020bac">
+                  <div class="w-commerce-commercecartitem"><img
+                      data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D"
+                      src="" alt="" class="w-commerce-commercecartitemimage w-dyn-bind-empty" />
+                    <div class="w-commerce-commercecartiteminfo">
+                      <div
+                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_name_%22%7D%7D%5D"
+                        class="w-commerce-commercecartproductname package-name w-dyn-bind-empty"></div>
+                      <div
+                        data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.price%22%7D%7D%5D"
+                        class="package-price">$ 0.00 USD</div>
+                      <script type="text/x-wf-template"
+                        id="wf-template-c158abd9-86c4-506f-6c34-511844020bb2">%3Cli%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3Cspan%3E%3A%20%3C%2Fspan%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%20class%3D%22w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3C%2Fli%3E</script>
+                      <ul
+                        data-wf-bindings="%5B%7B%22optionSets%22%3A%7B%22type%22%3A%22CommercePropTable%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr[]%22%7D%7D%2C%7B%22optionValues%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_sku_values_3dr%22%7D%7D%5D"
+                        class="w-commerce-commercecartoptionlist"
+                        data-wf-collection="database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr"
+                        data-wf-template-id="wf-template-c158abd9-86c4-506f-6c34-511844020bb2">
+                        <li><span
+                            data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D.name%22%7D%7D%5D"
+                            class="w-dyn-bind-empty"></span><span>: </span><span
+                            data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D%22%7D%7D%5D"
+                            class="w-dyn-bind-empty"></span></li>
+                      </ul><a href="#" role="button"
+                        data-wf-bindings="%5B%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D"
+                        class="w-inline-block" data-wf-cart-action="remove-item" data-commerce-sku-id=""
+                        aria-label="Remove item from cart">
+                        <div class="red-font">Remove</div>
+                      </a>
+                    </div><input aria-label="Update quantity"
+                      data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.count%22%7D%7D%2C%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D"
+                      data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Aec-product-type%22%3A%7B%22ne%22%3A%22e348fd487d0102946c9179d2a94bb613%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D"
+                      class="w-commerce-commercecartquantity main-cart-quantity" required="" pattern="^[0-9]+$"
+                      inputMode="numeric" type="number" name="quantity" autoComplete="off"
+                      data-wf-cart-action="update-item-quantity" data-commerce-sku-id="" value="1" />
+                  </div>
+                </div>
+                <div class="w-commerce-commercecartfooter cart-footer">
+                  <div aria-live="polite" aria-atomic="true" class="w-commerce-commercecartlineitem">
+                    <div class="subtotal">Subtotal</div>
+                    <div
+                      data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.subtotal%22%7D%7D%5D"
+                      class="w-commerce-commercecartordervalue subtotal-number"></div>
+                  </div>
+                  <div>
+                    <div data-node-type="commerce-cart-quick-checkout-actions" style="display:none"><a role="button"
+                        aria-haspopup="dialog" aria-label="Apple Pay" data-node-type="commerce-cart-apple-pay-button"
+                        style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat"
+                        class="w-commerce-commercecartapplepaybutton" tabindex="0">
+                        <div></div>
+                      </a><a role="button" tabindex="0" aria-haspopup="dialog"
+                        data-node-type="commerce-cart-quick-checkout-button" style="display:none"
+                        class="w-commerce-commercecartquickcheckoutbutton"><svg
+                          class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+                          <defs>
+                            <polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon>
+                            <polygon id="google-mark-c" points=".894 0 13.169 0 13.169 6.443 .894 6.443"></polygon>
+                          </defs>
+                          <g fill="none" fill-rule="evenodd">
+                            <path fill="#4285F4"
+                              d="M10.5967,12.0469 L10.5967,14.0649 L13.1167,14.0649 C14.6047,12.6759 15.4577,10.6209 15.4577,8.1779 C15.4577,7.6339 15.4137,7.0889 15.3257,6.5559 L7.8887,6.5559 L7.8887,9.6329 L12.1507,9.6329 C11.9767,10.6119 11.4147,11.4899 10.5967,12.0469">
+                            </path>
+                            <path fill="#34A853"
+                              d="M7.8887,16 C10.0137,16 11.8107,15.289 13.1147,14.067 C13.1147,14.066 13.1157,14.065 13.1167,14.064 L10.5967,12.047 C10.5877,12.053 10.5807,12.061 10.5727,12.067 C9.8607,12.556 8.9507,12.833 7.8887,12.833 C5.8577,12.833 4.1387,11.457 3.4937,9.605 L0.8747,9.605 L0.8747,11.648 C2.2197,14.319 4.9287,16 7.8887,16">
+                            </path>
+                            <g transform="translate(0 4)">
+                              <mask id="google-mark-b" fill="#fff">
+                                <use xlink:href="#google-mark-a"></use>
+                              </mask>
+                              <path fill="#FBBC04"
+                                d="M3.4639,5.5337 C3.1369,4.5477 3.1359,3.4727 3.4609,2.4757 L3.4639,2.4777 C3.4679,2.4657 3.4749,2.4547 3.4789,2.4427 L3.4939,0.3287 L0.8939,0.3287 C0.8799,0.3577 0.8599,0.3827 0.8459,0.4117 C-0.2821,2.6667 -0.2821,5.3337 0.8459,7.5887 L0.8459,7.5997 C0.8549,7.6167 0.8659,7.6317 0.8749,7.6487 L3.4939,5.6057 C3.4849,5.5807 3.4729,5.5587 3.4639,5.5337"
+                                mask="url(#google-mark-b)"></path>
+                            </g>
+                            <mask id="google-mark-d" fill="#fff">
+                              <use xlink:href="#google-mark-c"></use>
+                            </mask>
+                            <path fill="#EA4335"
+                              d="M0.894,4.3291 L3.478,6.4431 C4.113,4.5611 5.843,3.1671 7.889,3.1671 C9.018,3.1451 10.102,3.5781 10.912,4.3671 L13.169,2.0781 C11.733,0.7231 9.85,-0.0219 7.889,0.0001 C4.941,0.0001 2.245,1.6791 0.894,4.3291"
+                              mask="url(#google-mark-d)"></path>
+                          </g>
+                        </svg><svg class="w-commerce-commercequickcheckoutmicrosofticon"
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                          <g fill="none" fill-rule="evenodd">
+                            <polygon fill="#F05022" points="7 7 1 7 1 1 7 1"></polygon>
+                            <polygon fill="#7DB902" points="15 7 9 7 9 1 15 1"></polygon>
+                            <polygon fill="#00A4EE" points="7 15 1 15 1 9 7 9"></polygon>
+                            <polygon fill="#FFB700" points="15 15 9 15 9 9 15 9"></polygon>
+                          </g>
+                        </svg>
+                        <div>Pay with browser.</div>
+                      </a></div><a href="/checkout" value="Continue to Checkout"
+                      class="w-commerce-commercecartcheckoutbutton checkout-button" data-loading-text="Hang Tight..."
+                      data-node-type="cart-checkout-button">Continue to Checkout</a>
+                  </div>
+                </div>
+              </form>
+              <div class="w-commerce-commercecartemptystate">
+                <div aria-label="This cart is empty" aria-live="polite" class="button-text">No items found.</div>
+              </div>
+              <div aria-live="assertive" style="display:none" data-node-type="commerce-cart-error"
+                class="w-commerce-commercecarterrorstate">
+                <div class="font-black w-cart-error-msg"
+                  data-w-cart-quantity-error="Product is not available in this quantity."
+                  data-w-cart-general-error="Something went wrong when adding this item to the cart."
+                  data-w-cart-checkout-error="Checkout is disabled on this site."
+                  data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue."
+                  data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates.">
+                  Product is not available in this quantity.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-button w-nav-button">
+        <div class="burger-icon w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <section data-w-id="71ad58f6-da1d-c39f-8754-600be407ef30" class="section relative-overflow-hidden">
+    <div class="w-layout-blockcontainer container padding-144px relative no-max-width w-container"><img
+        class="hero-image" src="images/bg.jpg" width="1440" height="960" alt="sunrise" sizes="100vw"
+        data-w-id="71ad58f6-da1d-c39f-8754-600be407ef32" loading="eager"
+        srcset="images/bg-p-500.jpg 500w, images/bg-p-800.jpg 800w, images/bg-p-1080.jpg 1080w, images/bg.jpg 1440w" />
+      <div class="space-112px"></div>
+      <div class="hero-wrapper">
+        <h5 data-w-id="71ad58f6-da1d-c39f-8754-600be407ef35" style="opacity:0" class="self-align-left">Welcome</h5>
+        <h1 data-w-id="71ad58f6-da1d-c39f-8754-600be407ef37" style="opacity:0" class="hero-h1">DESIGN</h1><img
+          src="images/man.png" loading="eager" width="Auto" height="Auto" alt="man in a hoodie jacket standing"
+          data-w-id="71ad58f6-da1d-c39f-8754-600be407ef3f" style="opacity:0" class="hero-image-center" />
+        <h4 data-w-id="71ad58f6-da1d-c39f-8754-600be407ef40" style="opacity:0" class="hero-subtext">Beautiful design has
+          the power to captivate audiences.</h4>
+      </div>
+      <div class="space-112px hide-on-tab"></div>
+      <div class="space-32px"></div>
+      <div data-w-id="71ad58f6-da1d-c39f-8754-600be407ef43" class="trigger"></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="w-layout-blockcontainer container padding-144px w-container">
+      <div class="space-112px"></div>
+      <div class="who-wrapper slide-up-animation">
+        <div class="who-description-wrapper">
+          <h3 class="who-description">I aspire to be a driving force behind a future where design is a powerful catalyst
+            for positive change.</h3>
+          <div data-w-id="d2e197a6-0ef7-8d52-4118-d8ec0b97bb11" class="text-overlay"></div>
+          <div class="text-overlay row-02"></div>
+          <div class="text-overlay row-03"></div>
+          <div class="text-overlay row-04"></div>
+          <div class="text-overlay row-05"></div>
+        </div>
+        <div class="who-text-wrapper">
+          <h5>WHO I AM</h5>
+          <h2>SENIOR<br />DESIGNER<br /></h2>
+        </div>
+      </div>
+      <div class="space-112px"></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="w-layout-blockcontainer image-parallax-container w-container">
+      <div class="image-wrapper-parallax slide-up-animation"><img src="images/parallax.jpg" loading="eager"
+          alt="standing folder" height="" sizes="(max-width: 1440px) 100vw, 1440px"
+          srcset="images/parallax-p-500.jpg 500w, images/parallax-p-800.jpg 800w, images/parallax-p-1080.jpg 1080w, images/parallax.jpg 1440w"
+          class="image-parallax" />
+        <div data-w-id="2cc075e0-44fb-6456-e1e9-b9ad3bb491ff" class="trigger"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="w-layout-blockcontainer container padding-144px w-container">
+      <div class="space-112px"></div>
+      <div class="slide-up-animation w-dyn-list">
+        <div role="list" class="w-dyn-items">
+          <div role="listitem" class="services-row-flex w-dyn-item"><a data-w-id="bbdeecd7-2e45-90f0-9e40-60dc50497b1f"
+              href="/services/branding" class="services-link-wrapper w-inline-block">
+              <div class="services-row-block">
+                <div class="services-flex">
+                  <h5>01/</h5>
+                  <div class="services-block">
+                    <h2 class="services-row-title">Branding</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  </div>
+                </div>
+              </div><img class="services-row-image" src="images/service02.jpg" width="360" height="150" alt=""
+                sizes="(max-width: 767px) 100vw, (max-width: 991px) 30vw, 36vw"
+                data-w-id="bbdeecd7-2e45-90f0-9e40-60dc50497b26" loading="eager"
+                srcset="images/service02-p-500.jpg 500w, images/service02.jpg 720w" /><img class="services-row-image"
+                src="images/service02.jpg" width="360" height="150" alt=""
+                sizes="(max-width: 767px) 100vw, (max-width: 991px) 30vw, 36vw"
+                data-w-id="57b0e4cd-21cb-c146-6c44-6a0b12a6e20a" loading="eager"
+                srcset="images/service02-p-500.jpg 500w, images/service02.jpg 720w" />
+            </a></div>
+          <div role="listitem" class="services-row-flex w-dyn-item"><a data-w-id="bbdeecd7-2e45-90f0-9e40-60dc50497b1f"
+              href="/services/marketing" class="services-link-wrapper w-inline-block">
+              <div class="services-row-block">
+                <div class="services-flex">
+                  <h5>02/</h5>
+                  <div class="services-block">
+                    <h2 class="services-row-title">Marketing</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  </div>
+                </div>
+              </div><img loading="eager" width="360" height="150" alt="" src="images/service01.jpg"
+                data-w-id="bbdeecd7-2e45-90f0-9e40-60dc50497b26" class="services-row-image" /><img loading="eager"
+                width="360" height="150" alt="" src="images/service01.jpg"
+                data-w-id="57b0e4cd-21cb-c146-6c44-6a0b12a6e20a" class="services-row-image" />
+            </a></div>
+          <div role="listitem" class="services-row-flex w-dyn-item"><a data-w-id="bbdeecd7-2e45-90f0-9e40-60dc50497b1f"
+              href="/services/concept" class="services-link-wrapper w-inline-block">
+              <div class="services-row-block">
+                <div class="services-flex">
+                  <h5>03/</h5>
+                  <div class="services-block">
+                    <h2 class="services-row-title">Concept</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  </div>
+                </div>
+              </div><img class="services-row-image" src="images/service03.jpg" width="360" height="150" alt=""
+                sizes="(max-width: 767px) 100vw, (max-width: 991px) 30vw, 36vw"
+                data-w-id="bbdeecd7-2e45-90f0-9e40-60dc50497b26" loading="eager"
+                srcset="images/service03-p-500.jpg 500w, images/service03.jpg 720w" /><img class="services-row-image"
+                src="images/service03.jpg" width="360" height="150" alt=""
+                sizes="(max-width: 767px) 100vw, (max-width: 991px) 30vw, 36vw"
+                data-w-id="57b0e4cd-21cb-c146-6c44-6a0b12a6e20a" loading="eager"
+                srcset="images/service03-p-500.jpg 500w, images/service03.jpg 720w" />
+            </a></div>
+        </div>
+      </div>
+      <div class="space-112px"></div>
+    </div>
+  </section>
+  <section class="section relative">
+    <div class="w-layout-blockcontainer container max-height-208 w-container">
+      <div class="works-title-block slide-up-animation">
+        <h5 class="centered">Featured</h5>
+        <div class="page-title-flex">
+          <h2 class="works-title-huge">Wor</h2>
+          <h2 class="works-title-huge outline-white">KS</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container padding-72px">
+      <div class="space-112px"></div>
+      <div data-w-id="170eab4b-8975-d205-ae29-bbaaf22f2b76" style="opacity:0" class="works-flex">
+        <div class="w-dyn-list">
+          <div role="list" class="w-dyn-items">
+            <div role="listitem" class="w-dyn-item"><a data-w-id="703540ab-8213-d740-d800-0a31ea8662ba"
+                style="opacity:0" href="/works/product" class="works-link-wrapper tall-wrapper w-inline-block">
+                <div class="image-tall-wrapper"><img alt="" loading="lazy" src="images/highest-quality-mockup.jpg"
+                    sizes="(max-width: 479px) 240px, (max-width: 767px) 420px, 480px"
+                    srcset="images/highest-quality-mockup-p-500.jpg 500w, images/highest-quality-mockup-p-800.jpg 800w, images/highest-quality-mockup-p-1080.jpg 1080w, images/highest-quality-mockup.jpg 1440w"
+                    class="works-image-absolute" /></div>
+                <div class="text-wrapper">
+                  <div class="works-title-flex space-between">
+                    <h4 class="caps">Product</h4>
+                    <div class="badge">
+                      <h5>Marketing</h5>
+                    </div>
+                  </div>
+                  <div class="works-button-flex link-wrapper-animation">
+                    <h5 class="animate-button-h5 no-wrap">Explore</h5>
+                    <h5 class="animate-button-h5 move-down">Explore</h5><img src="images/arrow_out.svg" loading="lazy"
+                      width="12" height="12" alt="double arrow" class="animate-image" />
+                  </div>
+                </div>
+              </a></div>
+          </div>
+        </div>
+        <div class="w-dyn-list">
+          <div role="list" class="w-dyn-items">
+            <div role="listitem" class="w-dyn-item"><a data-w-id="15c0292e-64be-ae87-b375-c04ff0b51d40"
+                style="opacity:0" href="/works/modern" class="works-link-wrapper mid-wrapper w-inline-block">
+                <div class="image-mid-wrapper"><img alt="" loading="lazy" src="images/project2.jpg"
+                    sizes="(max-width: 479px) 240px, (max-width: 767px) 420px, 640px"
+                    srcset="images/project2-p-500.jpg 500w, images/project2-p-800.jpg 800w, images/project2-p-1080.jpg 1080w, images/project2.jpg 1440w"
+                    class="works-image-absolute" /></div>
+                <div class="text-wrapper">
+                  <div class="works-title-flex space-between">
+                    <h4 class="caps">Modern</h4>
+                    <div class="badge">
+                      <h5>Marketing</h5>
+                    </div>
+                  </div>
+                  <div class="works-button-flex link-wrapper-animation">
+                    <h5 class="animate-button-h5 no-wrap">Explore</h5>
+                    <h5 class="animate-button-h5 move-down">Explore</h5><img src="images/arrow_out.svg" loading="lazy"
+                      width="12" height="12" alt="double arrow" class="animate-image" />
+                  </div>
+                </div>
+              </a></div>
+          </div>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div class="works-large-wrapper flip-from-left w-dyn-list">
+        <div role="list" class="w-dyn-items">
+          <div role="listitem" class="w-dyn-item"><a href="/works/seasons"
+              class="works-link-wrapper large-wrapper w-inline-block">
+              <div class="image-large-wrapper"><img alt="" loading="lazy" src="images/worka.jpg"
+                  sizes="(max-width: 479px) 240px, (max-width: 767px) 420px, (max-width: 991px) 640px, 840px"
+                  srcset="images/worka-p-500.jpg 500w, images/worka-p-800.jpg 800w, images/worka-p-1080.jpg 1080w, images/worka.jpg 1440w"
+                  class="works-image-absolute" /></div>
+              <div class="text-wrapper">
+                <div class="works-title-flex space-between">
+                  <h4 class="caps">Seasons</h4>
+                  <div class="badge">
+                    <h5>Concept</h5>
+                  </div>
+                </div>
+                <div class="works-button-flex link-wrapper-animation">
+                  <h5 class="animate-button-h5 no-wrap">Explore</h5>
+                  <h5 class="animate-button-h5 move-down">Explore</h5><img src="images/arrow_out.svg" loading="lazy"
+                    width="12" height="12" alt="double arrow" class="animate-image" />
+                </div>
+              </div>
+            </a></div>
+        </div>
+      </div>
+      <div class="space"></div>
+      <div data-w-id="af853eb9-8e07-964d-cb63-5c97472e6d0e" style="opacity:0" class="works-flex">
+        <div class="w-dyn-list">
+          <div role="list" class="w-dyn-items">
+            <div role="listitem" class="w-dyn-item"><a data-w-id="af853eb9-8e07-964d-cb63-5c97472e6d26"
+                style="opacity:0" href="/works/focus" class="works-link-wrapper mid-wrapper w-inline-block">
+                <div class="image-mid-wrapper"><img alt="" loading="lazy" src="images/project3.jpg"
+                    sizes="(max-width: 479px) 240px, (max-width: 767px) 420px, 640px"
+                    srcset="images/project3-p-500.jpg 500w, images/project3-p-800.jpg 800w, images/project3-p-1080.jpg 1080w, images/project3.jpg 1440w"
+                    class="works-image-absolute" /></div>
+                <div class="text-wrapper">
+                  <div class="works-title-flex space-between">
+                    <h4 class="caps">Focus</h4>
+                    <div class="badge">
+                      <h5>Design</h5>
+                    </div>
+                  </div>
+                  <div class="works-button-flex link-wrapper-animation">
+                    <h5 class="animate-button-h5 no-wrap">Explore</h5>
+                    <h5 class="animate-button-h5 move-down">Explore</h5><img src="images/arrow_out.svg" loading="lazy"
+                      width="12" height="12" alt="double arrow" class="animate-image" />
+                  </div>
+                </div>
+              </a></div>
+          </div>
+        </div>
+        <div class="w-dyn-list">
+          <div role="list" class="w-dyn-items">
+            <div role="listitem" class="w-dyn-item"><a data-w-id="af853eb9-8e07-964d-cb63-5c97472e6d12"
+                style="opacity:0" href="/works/brand" class="works-link-wrapper tall-wrapper w-inline-block">
+                <div class="image-tall-wrapper"><img alt="" loading="lazy" src="images/applewatch.jpg"
+                    sizes="(max-width: 479px) 240px, (max-width: 767px) 420px, 480px"
+                    srcset="images/applewatch-p-500.jpg 500w, images/applewatch-p-800.jpg 800w, images/applewatch-p-1080.jpg 1080w, images/applewatch.jpg 1440w"
+                    class="works-image-absolute" /></div>
+                <div class="text-wrapper">
+                  <div class="works-title-flex space-between">
+                    <h4 class="caps">Brand</h4>
+                    <div class="badge">
+                      <h5>Branding</h5>
+                    </div>
+                  </div>
+                  <div class="works-button-flex link-wrapper-animation">
+                    <h5 class="animate-button-h5 no-wrap">Explore</h5>
+                    <h5 class="animate-button-h5 move-down">Explore</h5><img src="images/arrow_out.svg" loading="lazy"
+                      width="12" height="12" alt="double arrow" class="animate-image" />
+                  </div>
+                </div>
+              </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section slide-up-animation">
+    <div class="w-layout-blockcontainer container padding-144px w-container">
+      <div class="space-112px"></div>
+      <div data-delay="4000" data-animation="slide" class="reviews-slider-wrapper w-slider" data-autoplay="false"
+        data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0"
+        data-nav-spacing="3" data-duration="500" data-infinite="true">
+        <div class="mask w-slider-mask">
+          <div class="slide w-slide">
+            <div class="reviews-slide"><img src="images/quote.svg" loading="lazy" width="Auto" height="Auto" alt=""
+                class="reviews-images" />
+              <h3 class="reviews-text">We were blown away by the creativity of Portfolion.</h3>
+              <div class="reviews-block"><img src="images/reviews3.jpg" loading="eager" width="64" height="64"
+                  alt="man with eyeglass" class="reviews-image" />
+                <div class="reviews-text-block">
+                  <h6>James Davis</h6>
+                  <h6>DIRECTOR</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide w-slide">
+            <div class="reviews-slide"><img src="images/quote.svg" loading="lazy" width="Auto" height="Auto" alt=""
+                class="reviews-images" />
+              <h3 class="reviews-text">I couldn&#x27;t be happier with the results of our collab.</h3>
+              <div class="reviews-block"><img src="images/reviews2.jpg" loading="eager" width="64" height="64"
+                  alt="woman on side view" class="reviews-image" />
+                <div class="reviews-text-block">
+                  <h6>Jane Winter</h6>
+                  <h6>EXECUTIVE</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide w-slide">
+            <div class="reviews-slide"><img src="images/quote.svg" loading="eager" width="Auto" height="Auto" alt=""
+                class="reviews-images" />
+              <h2 class="reviews-text">It was a pleasure working on a project together.</h2>
+              <div class="reviews-block"><img src="images/reviews1.jpg" loading="eager" width="64" height="64"
+                  alt="man with beard" class="reviews-image" />
+                <div class="reviews-text-block">
+                  <h6>john BLACK</h6>
+                  <h6>ceo</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews-arrow left w-slider-arrow-left">
+          <div class="testimonial-arrow-icon w-icon-slider-left"></div>
+        </div>
+        <div class="reviews-arrow right w-slider-arrow-right"><img src="images/east.svg" loading="lazy" alt="east arrow"
+            class="testimonial-arrow-icon" /></div>
+        <div class="slide-nav w-slider-nav w-round"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section slide-up-animation">
+    <div class="w-layout-blockcontainer container padding-144px w-container">
+      <div class="space-112px"></div>
+      <div class="metrics-main-wrapper">
+        <div class="about-text-block">
+          <h5>Captivate Your Customers</h5>
+          <h2 class="metrics-title">Stunning Designs<br /><span class="outline-white">Drive Results.</span><br /></h2>
+          <p class="max-width-480px">Innovative solutions that captivate customers, drive engagement and get real world
+            results.</p>
+        </div>
+        <div class="metrics-wrapper">
+          <div data-w-id="bf8c60f1-5320-1d10-959d-2ac3d2902d3c" style="opacity:0" class="metrics-text-wrapper">
+            <h5>Projects</h5>
+            <h2 class="metrics-text">76</h2>
+          </div>
+          <div data-w-id="bf8c60f1-5320-1d10-959d-2ac3d2902d41" style="opacity:0" class="metrics-text-wrapper">
+            <h5>Clients</h5>
+            <h2 class="metrics-text outline">98</h2>
+          </div>
+          <div data-w-id="bf8c60f1-5320-1d10-959d-2ac3d2902d46" style="opacity:0" class="metrics-text-wrapper">
+            <h5>Awards</h5>
+            <h2 class="metrics-text outline">16</h2>
+          </div>
+          <div data-w-id="bf8c60f1-5320-1d10-959d-2ac3d2902d4b" style="opacity:0" class="metrics-text-wrapper">
+            <h5>Years</h5>
+            <h2 class="metrics-text">7</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section relative">
+    <div class="w-layout-blockcontainer container padding-72px w-container">
+      <div class="skills-wrapper slide-up-animation">
+        <div class="space-112px"></div>
+        <div class="skills-card">
+          <div class="title-block">
+            <h5>MY</h5>
+            <h2 class="caps">Skills</h2>
+          </div>
+          <div class="skills-block-wrapper">
+            <div id="w-node-_46305d6f-16d7-9398-d875-0a66ff0d7357-ff0d734c" class="skills-content-wrapper">
+              <h3 class="self-align-right outline-black">70%</h3>
+              <div data-w-id="46305d6f-16d7-9398-d875-0a66ff0d735a" class="line-wrapper">
+                <div class="line-progress"></div>
+              </div>
+              <h5>web design</h5>
+            </div>
+            <div class="skills-content-wrapper">
+              <h3 class="self-align-right outline-white">80%</h3>
+              <div data-w-id="46305d6f-16d7-9398-d875-0a66ff0d7361" class="line-wrapper">
+                <div class="line-progress"></div>
+              </div>
+              <h5>development</h5>
+            </div>
+            <div class="skills-content-wrapper">
+              <h3 class="self-align-right outline-white">90%</h3>
+              <div data-w-id="46305d6f-16d7-9398-d875-0a66ff0d7368" class="line-wrapper">
+                <div class="line-progress"></div>
+              </div>
+              <h5>ux/ui concept</h5>
+            </div>
+            <div class="skills-content-wrapper">
+              <h3 class="self-align-right outline-black">65%</h3>
+              <div data-w-id="46305d6f-16d7-9398-d875-0a66ff0d736f" class="line-wrapper">
+                <div class="line-progress"></div>
+              </div>
+              <h5>branding</h5>
+            </div>
+          </div>
+        </div>
+        <div class="space-112px"></div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="w-layout-blockcontainer container padding-144px w-container"></div>
+  </section>
+  <section class="section">
+    <div class="w-layout-blockcontainer container w-container">
+      <div class="cta-wrapper slide-up-animation">
+        <h5>Get In Touch</h5>
+        <div data-w-id="ca72263a-3f3c-ac60-aa94-cf9bfe00393d" class="big-letter-wrapper">
+          <h2 class="big-letter">HELLO@PORT.COM</h2>
+          <h2 class="big-letter outline-white">HELLO@PORT.COM</h2>
+        </div>
+        <div class="cta-flex"><a href="/contact" data-w-id="1fbaf4c8-f092-45b8-46d6-e47b529b8202"
+            class="cta-button-with-icon w-inline-block">
+            <p class="font-black">CONTACT US</p>
+            <p class="font-black no-wrap move-down">CONTACT US</p>
+            <p class="button-icon-black">→</p>
+          </a><a href="/about" data-w-id="1fbaf4c8-f092-45b8-46d6-e47b529b8209" class="button-outline w-inline-block">
+            <p class="no-wrap">LEARN MORE</p>
+            <p class="no-wrap move-down">LEARN MORE</p>
+          </a></div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="w-layout-blockcontainer container padding-144px w-container">
+      <div class="space-32px"></div>
+      <div class="footer-footer-top slide-up-animation">
+        <div class="footer-block"><a href="/" aria-current="page" class="logo-link-wrapper w-nav-brand w--current"><img
+              src="images/portfolion-20logo-2002.png" loading="eager" width="Auto" height="Auto" alt="Logo"
+              srcset="images/portfolion-20logo-2002-p-500.png 500w, images/portfolion-20logo-2002-p-800.png 800w, images/portfolion-20logo-2002-p-1080.png 1080w, images/portfolion-20logo-2002-p-1600.png 1600w, images/portfolion-20logo-2002-p-2000.png 2000w, images/portfolion-20logo-2002-p-2600.png 2600w, images/portfolion-20logo-2002-p-3200.png 3200w, images/portfolion-20logo-2002.png 4900w"
+              sizes="175px" class="logo invert" /></a>
+          <div class="socials-wrapper align-left"><a href="https://www.youtube.com/" target="_blank"
+              class="w-inline-block"><img src="images/youtube.png" loading="eager" width="32" height="32" alt=""
+                srcset="images/youtube-p-500.png 500w, images/youtube.png 512w"
+                sizes="(max-width: 767px) 16px, (max-width: 991px) 2vw, 16px"
+                class="social-icon footer-social-icon" /></a><a href="https://www.instagram.com/" target="_blank"
+              class="w-inline-block"><img src="images/instagram.png" loading="eager" width="32" height="32" alt=""
+                srcset="images/instagram-p-500.png 500w, images/instagram.png 512w"
+                sizes="(max-width: 767px) 16px, (max-width: 991px) 2vw, 16px"
+                class="social-icon footer-social-icon" /></a><a href="https://www.tiktok.com/en/" target="_blank"
+              class="w-inline-block"><img src="images/tiktok.png" loading="eager" width="32" height="32" alt=""
+                srcset="images/tiktok-p-500.png 500w, images/tiktok.png 512w"
+                sizes="(max-width: 767px) 16px, (max-width: 991px) 2vw, 16px"
+                class="social-icon footer-social-icon" /></a></div>
+          <p class="max-width-250px">Designer for Startups.</p>
+        </div>
+        <div class="footer-wrapper">
+          <h5>Main</h5>
+          <div class="footer-link-wrapper"><a href="/" aria-current="page" class="footer-link w--current">Home</a><a
+              href="/" aria-current="page" class="footer-link move-down w--current">Home</a></div>
+          <div class="footer-link-wrapper"><a href="/about" class="footer-link">About</a><a href="/about"
+              class="footer-link move-down">About</a></div>
+          <div class="footer-link-wrapper"><a href="/services" class="footer-link">Services</a><a href="/services"
+              class="footer-link move-down">Services</a></div>
+          <div class="footer-link-wrapper"><a href="/works" class="footer-link">Works</a><a href="/works"
+              class="footer-link move-down">Works</a></div>
+        </div>
+        <!-- <div class="footer-wrapper">
+          <h5>Pages</h5>
+          <div class="footer-link-wrapper"><a href="/contact" class="footer-link">Contact</a><a href="/contact"
+              class="footer-link move-down">Contact</a></div>
+          <div class="footer-link-wrapper"></div>
+          <div class="footer-link-wrapper"><a href="/terms-conditions" class="footer-link">Terms &amp; Conditions</a><a
+              href="/terms-conditions" class="footer-link move-down">Terms &amp; Conditions</a></div>
+          <div class="footer-link-wrapper"><a href="/privacy-policy" class="footer-link">Privacy Policy</a><a
+              href="/privacy-policy" class="footer-link move-down">Privacy Policy</a></div>
+        </div> -->
+        <div class="footer-wrapper">
+          <h5>Utilities</h5>
+          <div class="footer-link-wrapper"><a href="/utilities/style-guide" class="footer-link">Style Guide</a><a
+              href="/utilities/style-guide" class="footer-link move-down">Style Guide</a></div>
+          <div class="footer-link-wrapper"><a href="/utilities/instructions" class="footer-link">Instructions</a><a
+              href="/utilities/instructions" class="footer-link move-down">Instructions</a></div>
+          <div class="footer-link-wrapper"><a href="/utilities/licenses" class="footer-link">Licenses</a><a
+              href="/utilities/licenses" class="footer-link move-down">Licenses</a></div>
+          <div class="footer-link-wrapper"><a href="/utilities/changelog" class="footer-link">Changelog</a><a
+              href="/utilities/changelog" class="footer-link move-down">Changelog</a></div>
+        </div>
+      </div>
+      <div data-w-id="eb508d23-d6f1-e11c-5554-d737bc0c3373" class="footer-line"></div>
+      <div data-w-id="eb508d23-d6f1-e11c-5554-d737bc0c3374" class="footer-footer-bottom">
+        <p>© 2024 PORTFOLION. All Rights Reserved. </p>
+        <div class="footer-flex">
+          <div class="footer-flex-bottom">
+            <p>Powered By </p><a href="https://webflow.com/" target="_blank" class="w-inline-block">
+              <p class="footer-bottom-text">Webflow</p>
+            </a>
+          </div>
+          <div class="footer-flex-bottom">
+            <p>Built By </p><a href="https://webflow.com/templates/designers/rick-mummery" target="_blank"
+              class="w-inline-block">
+              <p class="footer-bottom-text">Rick Mummery</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="js/webflow-script.js" type="text/javascript"></script>
+</body>
+
+</html>
